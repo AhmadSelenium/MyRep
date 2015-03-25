@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Test Suite]" parallel="none">
+  <test name="Test Parametrize(failed)" parallel="none">
+    <classes>
+      <class name="Practice.test1">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- Practice.test1 -->
+    </classes>
+  </test> <!-- Test Parametrize(failed) -->
+  <test name="Test ASSERT(failed)" parallel="none">
+    <classes>
+      <class name="Practice.test2">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- Practice.test2 -->
+    </classes>
+  </test> <!-- Test ASSERT(failed) -->
+</suite> <!-- Failed suite [My Test Suite] -->

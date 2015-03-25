@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Test Suite" parallel="none">
+  <test name="TestType">
+    <classes>
+      <class name="Data_Provider.test3"/>
+       </classes>
+  </test> <!-- Test -->
+  <test name="TestType">
+    <classes>
+      <class name="Data_Provider.test4"/>
+       </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
+  

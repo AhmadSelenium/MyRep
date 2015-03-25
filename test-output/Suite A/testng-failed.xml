@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite A]" parallel="none">
+  <test name="Test Parametrize(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="Practice.Newsample">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="RegisterData"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Practice.Newsample -->
+      <class name="Practice.NewTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- Practice.NewTest -->
+    </classes>
+  </test> <!-- Test Parametrize(failed) -->
+</suite> <!-- Failed suite [Suite A] -->
